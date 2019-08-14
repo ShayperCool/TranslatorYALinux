@@ -1,0 +1,6 @@
+/home/shaypercool/Projects/TranslatorGTK/TranslatorGTK/bin/Release/TranslatorGTK.exe
+/home/shaypercool/Projects/TranslatorGTK/TranslatorGTK/bin/Release/Newtonsoft.Json.dll
+/home/shaypercool/Projects/TranslatorGTK/TranslatorGTK/bin/Release/Newtonsoft.Json.xml
+/home/shaypercool/Projects/TranslatorGTK/TranslatorGTK/obj/x86/Release/TranslatorGTK.csproj.CoreCompileInputs.cache
+/home/shaypercool/Projects/TranslatorGTK/TranslatorGTK/obj/x86/Release/TranslatorGTK.csproj.CopyComplete
+/home/shaypercool/Projects/TranslatorGTK/TranslatorGTK/obj/x86/Release/TranslatorGTK.exe

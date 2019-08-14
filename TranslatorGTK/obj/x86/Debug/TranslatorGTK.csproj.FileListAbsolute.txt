@@ -1,0 +1,9 @@
+/home/shaypercool/Projects/TranslatorGTK/TranslatorGTK/bin/Debug/TranslatorGTK.exe
+/home/shaypercool/Projects/TranslatorGTK/TranslatorGTK/bin/Debug/TranslatorGTK.pdb
+/home/shaypercool/Projects/TranslatorGTK/TranslatorGTK/obj/x86/Debug/TranslatorGTK.csprojAssemblyReference.cache
+/home/shaypercool/Projects/TranslatorGTK/TranslatorGTK/obj/x86/Debug/TranslatorGTK.csproj.CoreCompileInputs.cache
+/home/shaypercool/Projects/TranslatorGTK/TranslatorGTK/obj/x86/Debug/TranslatorGTK.exe
+/home/shaypercool/Projects/TranslatorGTK/TranslatorGTK/obj/x86/Debug/TranslatorGTK.pdb
+/home/shaypercool/Projects/TranslatorGTK/TranslatorGTK/bin/Debug/Newtonsoft.Json.dll
+/home/shaypercool/Projects/TranslatorGTK/TranslatorGTK/bin/Debug/Newtonsoft.Json.xml
+/home/shaypercool/Projects/TranslatorGTK/TranslatorGTK/obj/x86/Debug/TranslatorGTK.csproj.CopyComplete

@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<stetic-interface>
+  <configuration>
+    <images-root-path>..</images-root-path>
+  </configuration>
+  <import>
+    <widget-library name="../bin/Release/TranslatorGTK.exe" internal="true" />
+  </import>
+  <widget class="Gtk.Window" id="MainWindow" design-size="369 280">
+    <property name="MemberName" />
+    <property name="Title" translatable="yes">MainWindow</property>
+    <property name="WindowPosition">CenterOnParent</property>
+    <signal name="DeleteEvent" handler="OnDeleteEvent" />
+    <child>
+      <widget class="Gtk.Fixed" id="fixed3">
+        <property name="MemberName" />
+        <property name="HasWindow">False</property>
+        <child>
+          <widget class="Gtk.ScrolledWindow" id="GtkScrolledWindow">
+            <property name="MemberName" />
+            <property name="WidthRequest">350</property>
+            <property name="HeightRequest">100</property>
+            <property name="ShadowType">In</property>
+            <child>
+              <widget class="Gtk.TextView" id="inputField">
+                <property name="MemberName" />
+                <property name="CanFocus">True</property>
+                <property name="ShowScrollbars">True</property>
+                <property name="Text" translatable="yes" />
+              </widget>
+            </child>
+          </widget>
+          <packing>
+            <property name="X">10</property>
+            <property name="Y">10</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="Gtk.Button" id="button1">
+            <property name="MemberName" />
+            <property name="CanFocus">True</property>
+            <property name="Type">TextOnly</property>
+            <property name="Label" translatable="yes">Translate</property>
+            <property name="UseUnderline">True</property>
+            <signal name="Clicked" handler="OnButton1Clicked" />
+          </widget>
+          <packing>
+            <property name="X">16</property>
+            <property name="Y">120</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="Gtk.ScrolledWindow" id="GtkScrolledWindow1">
+            <property name="MemberName" />
+            <property name="WidthRequest">350</property>
+            <property name="HeightRequest">100</property>
+            <property name="ShadowType">In</property>
+            <child>
+              <widget class="Gtk.TextView" id="outputField">
+                <property name="MemberName" />
+                <property name="CanFocus">True</property>
+                <property name="ShowScrollbars">True</property>
+                <property name="Text" translatable="yes" />
+              </widget>
+            </child>
+          </widget>
+          <packing>
+            <property name="X">10</property>
+            <property name="Y">160</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="Gtk.ScrolledWindow" id="GtkScrolledWindow2">
+            <property name="MemberName" />
+            <property name="WidthRequest">30</property>
+            <property name="HeightRequest">30</property>
+            <property name="ShadowType">In</property>
+            <child>
+              <widget class="Gtk.TextView" id="languageText">
+                <property name="MemberName" />
+                <property name="CanFocus">True</property>
+                <property name="ShowScrollbars">True</property>
+                <property name="Text" translatable="yes">ru</property>
+              </widget>
+            </child>
+          </widget>
+          <packing>
+            <property name="X">94</property>
+            <property name="Y">124</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="Gtk.CheckButton" id="checkbutton1">
+            <property name="MemberName" />
+            <property name="CanFocus">True</property>
+            <property name="Label" translatable="yes">always on top</property>
+            <property name="Active">True</property>
+            <property name="DrawIndicator">True</property>
+            <property name="HasLabel">True</property>
+            <property name="UseUnderline">True</property>
+            <signal name="Toggled" handler="OnCheckbutton1Toggled" />
+          </widget>
+          <packing>
+            <property name="X">136</property>
+            <property name="Y">125</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="Gtk.CheckButton" id="checkbutton2">
+            <property name="MemberName" />
+            <property name="CanFocus">True</property>
+            <property name="Label" translatable="yes">clear field</property>
+            <property name="DrawIndicator">True</property>
+            <property name="HasLabel">True</property>
+            <property name="UseUnderline">True</property>
+          </widget>
+          <packing>
+            <property name="X">251</property>
+            <property name="Y">123</property>
+          </packing>
+        </child>
+      </widget>
+    </child>
+  </widget>
+</stetic-interface>
