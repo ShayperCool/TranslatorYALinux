@@ -9,7 +9,7 @@ using Newtonsoft.Json;
 public partial class MainWindow : Gtk.Window
 {
 
-    private static string _apiKey = "trnsl.1.1.20190806T091619Z.472bf412f426c085.62f66808852ed3358a563140f8c35be632682b46\n";
+    private static string _apiKey = "api_key_here";
 
     public MainWindow() : base(Gtk.WindowType.Toplevel)
     {
