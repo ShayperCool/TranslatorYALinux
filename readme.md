@@ -1,1 +1,1 @@
-[!alt text](img/screen.png)
+![alt text](img/screen.png)
